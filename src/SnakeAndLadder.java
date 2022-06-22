@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class SnakeAndLadder {
 
@@ -6,7 +7,13 @@ public class SnakeAndLadder {
 		System.out.println("Welcome to snake and ladder game...");
 		
 		int position = 0;
-        System.out.println("Position of player = " + position);
+        System.out.println("Starting position of player = " + position);
+        
+        Random random = new Random();
+        int x1 = random.nextInt(6);
+        
+        System.out.println("Player got the position " +x1);
+        
 
 	}
 
